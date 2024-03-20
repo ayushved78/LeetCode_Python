@@ -1,12 +1,12 @@
 class TimeMap:
 
-    def __init__(self):
+    def __init__(self): # O(1)
         self.value_dict = collections.defaultdict(list)
         self.time_dict = collections.defaultdict(list)
 
     def set(self, key: str, value: str, timestamp: int) -> None:
-        self.value_dict[key].append(value)
-        self.time_dict[key].append(timestamp)
+        self.value_dict[key].append(value) # O(1)
+        self.time_dict[key].append(timestamp) # O(1)
         
     def get(self, key: str, timestamp: int) -> str:
         l = 0
@@ -24,6 +24,9 @@ class TimeMap:
                 l = mid + 1
             
         return self.value_dict[key][r]  if r >= 0 else ""
+    
+    # TC: log(n)
+    # SC: O(1)
         
 
 
