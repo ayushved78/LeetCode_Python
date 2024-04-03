@@ -27,3 +27,5 @@ class Solution:
                     return True
         
         return False
+    
+# LINK: https://www.youtube.com/watch?v=RqffW0smIbQ
