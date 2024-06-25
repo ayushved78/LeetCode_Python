@@ -4,7 +4,7 @@
 <p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> s = "babad"
-<strong>Output:</strong> "bab"
+<strong>Output:</strong> "bab"as
 <strong>Explanation:</strong> "aba" is also a valid answer.
 </pre>
 
